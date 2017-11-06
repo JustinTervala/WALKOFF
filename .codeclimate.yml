@@ -1,0 +1,32 @@
+---
+engines:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    checks:
+      Similar code:
+        enabled: false
+    config:
+      languages:
+        python:
+          mass_threshold: 100
+#  pep8:
+#    enabled: true
+  fixme:
+    enabled: true
+  radon:
+    enabled: true
+  tslint:
+    enabled: true
+    channel: beta
+    config: .tslint.json
+ratings:
+  paths:
+  - "**.css"
+  - "**.js"
+  - "**.module"
+  - "**.ts"
+  - "**.py"
+exclude_paths:
+- tests/
