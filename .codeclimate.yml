@@ -1,4 +1,3 @@
----
 engines:
   csslint:
     enabled: true
@@ -11,8 +10,6 @@ engines:
       languages:
         python:
           mass_threshold: 100
-#  pep8:
-#    enabled: true
   fixme:
     enabled: true
   radon:
@@ -21,11 +18,16 @@ engines:
     enabled: true
     channel: beta
     config: .tslint.json
+  markdownlint:
+    enabled: true
+  pep8:
+    enabled: true
 ratings:
   paths:
   - "**.css"
   - "**.ts"
   - "**.py"
+  - "**.md"
 exclude_paths:
-- tests/
-- server/static
+  - tests/
+  - server/static
