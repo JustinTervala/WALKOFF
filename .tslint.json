@@ -7,8 +7,8 @@
     "indent": [true, "tabs"],
     "no-trailing-whitespace": false,
     "quotemark": [true, "single", "avoid-template", "avoid-escape"],
-    "comment-format": [true, "check-uppercase"],
-    "space-before-function-paren": [true, "always"],
+    "comment-format": false,
+    "space-before-function-paren": false,
     "object-literal-sort-keys": false,
     "ordered-imports": false,
     "only-arrow-functions": false
