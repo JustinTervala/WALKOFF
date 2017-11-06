@@ -3,13 +3,9 @@ engines:
     enabled: true
   duplication:
     enabled: true
-    checks:
-      Similar code:
-        enabled: false
     config:
       languages:
-        python:
-          mass_threshold: 75
+        - python
   fixme:
     enabled: true
   radon:
