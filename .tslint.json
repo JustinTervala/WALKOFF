@@ -4,7 +4,10 @@
     "max-line-length": {
       "options": [120]
     },
-    "indent": [true, "tabs"]
+    "indent": [true, "tabs"],
+    "no-trailing-whitespace": false,
+    "quotemark": [true, "single", "avoid-template", "avoid-escape"],
+    "comment-format": [true, "check-uppercase"]
   }
 
 }
