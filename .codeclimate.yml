@@ -24,10 +24,11 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.ts"
-  - "**.py"
-  - "**.md"
+    - "**.css"
+    - "**.ts"
+    - "**.py"
+    - "**.md"
 exclude_paths:
   - tests/
   - server/static
+  - core/protobuf
