@@ -9,7 +9,7 @@ engines:
     config:
       languages:
         python:
-          mass_threshold: 100
+          mass_threshold: 75
   fixme:
     enabled: true
   radon:
