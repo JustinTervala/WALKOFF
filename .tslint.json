@@ -11,7 +11,9 @@
     "space-before-function-paren": false,
     "object-literal-sort-keys": false,
     "ordered-imports": false,
-    "only-arrow-functions": false
+    "only-arrow-functions": false,
+    "member-access": false,
+    "arrow-parens": false
   }
 
 }
