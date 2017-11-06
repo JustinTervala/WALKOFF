@@ -24,9 +24,8 @@ engines:
 ratings:
   paths:
   - "**.css"
-  - "**.js"
-  - "**.module"
   - "**.ts"
   - "**.py"
 exclude_paths:
 - tests/
+- server/static
