@@ -6,6 +6,7 @@ engines:
     config:
       languages:
         - python
+        - typescript
   fixme:
     enabled: true
   radon:
