@@ -19,7 +19,7 @@ plugins:
   sonar-python:
     enabled: true
     config:
-      minimum_severity: minor
+      minimum_severity: info
 ratings:
   paths:
     - "**.css"
