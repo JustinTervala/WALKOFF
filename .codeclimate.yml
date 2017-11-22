@@ -1,4 +1,4 @@
-engines:
+plugins:
   csslint:
     enabled: true
   duplication:
@@ -15,7 +15,6 @@ engines:
     enabled: true
   pep8:
     enabled: true
-plugins:
   sonar-python:
     enabled: true
     config:
