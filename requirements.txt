@@ -5,7 +5,7 @@ sqlalchemy >= 1.1.0
 APscheduler >= 3.0.0
 gevent >= 1.2
 connexion >= 1.1
-pyaes == 1.6.0
+pyaes==1.6.1
 pyyaml >= 3.0
 pyzmq > 14.1.0
 passlib >= 1.7.0
