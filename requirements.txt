@@ -11,3 +11,5 @@ pyzmq > 14.1.0
 passlib >= 1.7.0
 blinker >= 1.4
 protobuf
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
